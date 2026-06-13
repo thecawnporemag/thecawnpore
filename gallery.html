@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cawnpore Gallery</title>
+     <meta name="description" content="Explore our visual archive of historical photographs, maps, and documents related to Kanpur's rich heritage.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thecawnporemag.github.io/gallery.html">
+    <meta property="og:title" content="Historical Gallery - The Cawnpore Magazine | Visual Archive of Kanpur">
+    <meta property="og:description" content="Explore our visual archive of historical photographs, maps, and documents related to Kanpur's rich heritage.">
+    <meta property="og:image" content="https://thecawnporemag.github.io/assets/images/gallery-og.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://thecawnporemag.github.io/gallery.html">
+    <meta property="twitter:title" content="Historical Gallery - The Cawnpore Magazine | Visual Archive of Kanpur">
+    <meta property="twitter:description" content="Explore our visual archive of historical photographs, maps, and documents related to Kanpur's rich heritage.">
+   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gallery.css" />
+     <meta property="twitter:image" content="https://thecawnporemag.github.io/assets/images/gallery-og.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+     <nav role="navigation" aria-label="Main Menu">
+          <!-- Logo on the left -->
+    <a href="index.html">
+      <img src="assets/favicon.ico" alt="Logo" class="navbar-logo" />
+    </a>
+    
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="submission.html">SUBMIT</a></li>
+            <li><a href="issue.html">ISSUE</a></li>
+            <li><a href="masthead.html">MASTHEAD</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+
+            <li><a href="open-source.html">OPEN SOURCE</a></li>
+            <li><a href="journey.html">OUR JOURNEY</a></li>
+
+            <li><a href="login.html" class="btn">LOGIN</a></li>
+            <li><a href="signup.html" class="btn">REGISTER</a></li>
+          </ul>
+    </div>
+
+   <i class="fa fa-bars" onclick="showMenu()"></i>
+
+  </nav>
+    <button
+      onclick="history.back()"
+      style="
+        position: fixed;
+        top: 8  0px;
+        left: 20px;
+        z-index: 1000;
+        background-color: #800000;
+        color: white;
+        border: none;
+        padding: 10px 16px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: bold;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+      "
+    >
+      ← Back
+    </button>
+
+    <h1>Cawnpore Traditional Gallery</h1>
+
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="gallary/CAWNPORE.jpeg" alt="Cawnpore" />
+        <div class="caption">
+          <p class="caption-title">Historic View of Cawnpore</p>
+          <p class="caption-desc">A rare glimpse of the city as it looked in the late 19th century, preserving its colonial charm.</p>
+        </div>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="gallary/clock tower.webp" alt="Clock Tower" />
+        <div class="caption">
+          <p class="caption-title">Iconic Clock Tower</p>
+          <p class="caption-desc">A landmark from the British era, the Clock Tower has witnessed Kanpur's transformation over the decades.</p>
+        </div>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="gallary/ganga river.webp" alt="Ganga River" />
+        <div class="caption">
+          <p class="caption-title">Sacred Ganga River</p>
+          <p class="caption-desc">Flowing through Kanpur, the Ganga has been the lifeline for culture, faith, and livelihood for centuries.</p>
+        </div>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="gallary/iskcon kanpur.webp" alt="ISKCON Kanpur" />
+        <div class="caption">
+          <p class="caption-title">ISKCON Temple</p>
+          <p class="caption-desc">A modern spiritual center devoted to Lord Krishna, known for its serene atmosphere and grand architecture.</p>
+        </div>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="gallary/jk temple.webp" alt="JK Temple" />
+        <div class="caption">
+           <p class="caption-title">J.K. Temple Architecture</p>
+          <p class="caption-desc">An iconic blend of ancient and modern styles, symbolizing Kanpur's architectural heritage.</p>
+        </div>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="gallary/Kanpur Memorial Church.jpeg" alt="Kanpur Memorial Church" />
+        <div class="caption">
+          <p class="caption-title">Memorial Church</p>
+          <p class="caption-desc">Built in memory of those who fell during the events of 1857, this Gothic-style church is a historic treasure.</p>
+        </div>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="Imarti.jpeg" alt="Imarti" />
+        <div class="caption">
+          <p class="caption-title">Imarti</p>
+          <p class="caption-desc">A Kanpur speciality, deep-fried into floral rings and drenched in saffron syrup, reflecting the city's rich sweet-making heritage.</p>
+        </div>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="Sultani Dal.jpeg" alt="Sultani Dal" />
+        <div class="caption">
+          <p class="caption-title">Traditional Sultani Dal</p>
+          <p class="caption-desc">A royal Awadhi delicacy, slow-cooked to perfection, representing the city’s rich culinary tradition.</p>
+        </div>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="Kanpur.jpg" alt="Kanpur Zoological Park" />
+        <div class="caption">
+          <p class="caption-title">Zoological Park</p>
+          <p class="caption-desc">Popularly known as Allen Forest Zoo, this lush green space is home to diverse wildlife and exotic species.</p>
+        </div>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="1920px-JK_Temple(Juggilal_Kamlapati_temple)_is_a_temple_in_the_Indian_city_of_Kanpur.It_is_considered_to_be_a_unique_blend_of_ancient_and_modern_architecture.jpg" alt="J.K. Temple" />
+        <div class="caption">
+           <p class="caption-title">J.K. Temple</p>
+          <p class="caption-desc">Dedicated to Radha and Krishna, the temple is admired for its pristine white structure and intricate carvings.</p>
+        </div>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="gallary/kanpur museum.webp" alt="Kanpur Museum" />
+        <div class="caption">
+          <p class="caption-title">City Museum</p>
+          <p class="caption-desc">Preserving artifacts, photographs, and documents that narrate Kanpur’s cultural and historical journey.</p>
+        </div>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="gallary/kanpur railway station.jpeg" alt="Kanpur Railway Station" />
+        <div class="caption">
+          <p class="caption-title">Historic Railway Station</p>
+          <p class="caption-desc">A bustling transit point since colonial times, showcasing vintage railway architecture.</p>
+        </div>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="gallary/Lal Imli Mill Kanpur.jpeg" alt="Lal Imli Mill" />
+        <div class="caption">
+          <p class="caption-title">Lal Imli Textile Mill</p>
+          <p class="caption-desc">One of the oldest textile mills in North India, pivotal to Kanpur’s reputation as the 'Manchester of the East'.</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer" id="footer">
+      <a class="back-to-top" href="#">
+          <i class="fa-solid fa-chevron-up"></i>
+      </a>
+      <div class="footer-top">
+      <div class="footer-about">
+        <a href="index.html">
+          <img src="assets/favicon.ico" alt="The Cawnpore Logo" style="height: 50px; margin-bottom: 10px;">
+          <h3>The Cawnpore</h3>
+        </a>
+        
+        <p>An independent magazine celebrating literary voices and untold stories.</p>
+      </div>
+        <div class="footer-links" id="footerLinks">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="submission.html">Submit</a></li>
+            <li><a href="issue.html">Issue</a></li>
+            <li><a href="masthead.html">Masthead</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="open-source.html">Open Source</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact" id="footerContact">
+          <h3>Contact Us</h3>
+          <div class="social-icons">
+            <a href="mailto:thecawnporemagofficial@gmail.com" target="_blank">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://www.instagram.com/thecawnporemagazine/?igsh=MWQzcXkxeGNkd29oeA%3D%3D" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/the-cawnpore-magazine/" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://x.com/TheCawnporeMag?s=09" target="_blank">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://www.tumblr.com/thecawnporemagazine?source=share" target="_blank">
+              <i class="fa-brands fa-tumblr"></i>
+            </a>
+          </div>
+        </div>
+        <div class="subscription-box-about">
+          <h3>Subscribe to our Newsletter</h3>
+          <form action="/subscribe" method="post">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Made with &#x2665; by Kritika Singh</p>
+        <p>&copy; <span id="year"></span> THE CAWNPORE — ALL RIGHTS RESERVED</p>
+      </div>
+      <audio id="bg-music" loop preload="auto">
+           <source src="assets/music/lofi.mp3" type="audio/mpeg" />
+           Your browser does not support the audio element.
+      </audio>
+      <div id="music-toggle" aria-label="Toggle Background Music" role="button" tabindex="0">
+        <i class="fa-solid fa-music"></i>
+      </div>
+    </footer>
+    <script>
+      const backToTop = document.querySelector('.back-to-top');
+      window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 300) { 
+        backToTop.classList.add("active");
+      } else {
+        backToTop.classList.remove("active");
+      }
+      });
+    </script>
+                           <!-- Circles -->
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div> 
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+    <script>
+  // coords + nodes
+  const coords = { x: 0, y: 0 };
+  const circles = document.querySelectorAll(".circle");
+
+  // gradient colors (same vibe as FAQ)
+  const colors = [
+    "#ffb56b","#fdaf69","#f89d63","#f59761","#ef865e","#ec805d",
+    "#e36e5c","#df685c","#d5585c","#d1525c","#c5415d","#c03b5d",
+    "#b22c5e","#ac265e","#9c155f","#950f5f","#830060","#7c0060",
+    "#680060","#60005f","#48005f","#3d005e"
+  ];
+
+  // init
+  circles.forEach((circle, index) => {
+    circle.x = 0;
+    circle.y = 0;
+    circle.style.backgroundColor = colors[index % colors.length];
+  });
+
+  // mouse listener
+  window.addEventListener("mousemove", (e) => {
+    coords.x = e.clientX;
+    coords.y = e.clientY;
+  });
+
+  // animate snake
+  function animateCircles() {
+    let x = coords.x;
+    let y = coords.y;
+
+    circles.forEach((circle, index) => {
+      circle.style.left = (x - 12) + "px";
+      circle.style.top  = (y - 12) + "px";
+      circle.style.transform = `scale(${(circles.length - index) / circles.length})`;
+
+      circle.x = x;
+      circle.y = y;
+
+      const next = circles[index + 1] || circles[0];
+      x += (next.x - x) * 0.15;
+      y += (next.y - y) * 0.15;
+    });
+
+    requestAnimationFrame(animateCircles);
+  }
+
+  animateCircles();
+   function showMenu() {
+      document.getElementById("navLinks").style.right = "0";
+      document.body.style.overflow = "hidden";
+    }
+
+    function hideMenu() {
+      document.getElementById("navLinks").style.right = "-200px";
+      document.body.style.overflow = "auto";
+    }
+  </script>
+  </body>
+</html>
